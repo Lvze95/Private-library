@@ -2,11 +2,9 @@ import "./App.css";
 
 const Header = () => {
   return (
-    <>
-      <div>
-        <h1>Header</h1>
-      </div>
-    </>
+    <div className="header">
+      <h1>Header</h1>
+    </div>
   );
 };
 

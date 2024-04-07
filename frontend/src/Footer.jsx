@@ -2,11 +2,11 @@ import "./App.css";
 
 const Footer = () => {
   return (
-    <>
-      <div>
-        <h1>Footer</h1>
+    <footer className="footer">
+      <div className="container">
+        <span>&copy; {new Date().getFullYear()} teletabichi</span>
       </div>
-    </>
+    </footer>
   );
 };
 
